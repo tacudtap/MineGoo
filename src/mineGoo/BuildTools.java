@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 public class BuildTools {
 
-    private static Path localPath = Paths.get(System.getProperty("user.home"), "sever", "buildtools");
+    private static Path localPath = Paths.get(System.getProperty("user.home"), "server", "buildtools");
 
     public static void buildDirectory() {
         try {
